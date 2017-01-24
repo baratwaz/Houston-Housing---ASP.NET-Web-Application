@@ -1,0 +1,58 @@
+﻿body {
+}
+#menu>li{
+    width:110px;
+}
+#menu>li:hover{
+    background-color:lightblue;
+}
+#menu>li::selection{
+    background-color:lightblue;
+}
+.columnrow{
+    margin-bottom:10px;
+}
+tr td
+{
+    padding-top:20px;
+}
+#addHome:hover{
+     background-color:lightblue;
+}
+#menu:active {
+     background-color:lightblue;
+
+}
+.red{
+    color:red;
+}
+.myclass {
+    background: url('images (1).jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    /*background-color:gray;*/
+}
+
+.white{
+    color:red;
+}
+.success{
+    font-size:25px;
+    text-align:center;
+}
+.green{
+    color:green !important;
+}
+
+#textRight{
+    margin-left:30px;
+}
+#item{
+    display:flex;
+    flex-direction:row;
+    margin-left:328px !important;
+    margin-top:30px;
+    border-style:groove;
+}
